@@ -52,11 +52,13 @@ header .container {
     padding-top: 100px;
     padding-bottom: 50px;
     font-size: 1em;
+    background:#FFA8D3;
 }
 
 header img {
-    display: block;
+    
     margin: 0 auto 20px;
+    background: #FFA8D3;
 }
 
 header .intro-text .name {
@@ -65,7 +67,19 @@ header .intro-text .name {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
+    background:#FFA8D3;
     
+}
+
+header .timer-text .name {
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 5em;
+    font-weight: 500;
+    background:#FFA8D3;
+
 }
 
 
@@ -73,8 +87,9 @@ header .intro-text .name {
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;
-        padding-bottom: 100px;
+        padding-bottom: 500px;
         font-size: 1em;
+        background; #FFA8D3
     }
 
     header .intro-text .name {
@@ -202,7 +217,7 @@ section.success a.active {
     border: 0;
     border-radius: 0;
     font-size: 2em;
-    background: 0 0;
+    background: #FFA8D3;
     box-shadow: none!important;
     resize: none;
 }
