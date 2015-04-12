@@ -1,5 +1,5 @@
 
-var count=  * 0.3 * 30 ;
+var count=  90 * 0.3 * 30 ;
 
 var counter=setInterval(timer, 1000); //1000 will  run it every 1 second
 
